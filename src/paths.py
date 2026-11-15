@@ -23,3 +23,7 @@ DANGER_MAP = {
     "high": 4,
     "very_high": 5,
 }
+
+POSTGRES_URL = "postgresql+psycopg2://postgres@localhost:5433/avalanche"
+SQLITE_PATH = PROCESSED / "avalanche.sqlite"
+SQLITE_URL = f"sqlite:///{SQLITE_PATH}"
